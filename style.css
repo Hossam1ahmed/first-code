@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    margin: auto;
+}
+div{
+    width: 80%;
+}
+body{
+   background: rgb(39, 51, 39);
+    color: aliceblue;
+    font-family: system-ui;
+}
+#crud{
+    text-align: center;
+    text-transform: uppercase;
+
+}
+#crud1{
+    text-align: center;
+    text-transform: uppercase;
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    background: rgb(180, 138, 117);
+    color: rgb(45, 98, 145);
+    border-radius: 10px;
+}
+input:hover{
+    background: rgb(204, 164, 143) ;
+}
+input:focus{
+    background: rgb(207, 180, 165) ;
+    color: rgb(12, 16, 20);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.price{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+button{
+   background: darksalmon;
+    height: 30px;
+    width: 90px;
+    border-radius: 15px;
+    margin: 10px;
+ 
+    cursor: pointer;
+}
+button:hover{
+    background: rgb(231, 167, 146);
+    letter-spacing: 2px;
+transition: 0.5s;
+}
+#total{
+background: rgb(202, 14, 14);
+border-radius: 10px;
+padding: 5px;
+color: black;
+}
+#total::before{
+    content: "total: ";
+}
+
+table{
+    
+  width: 100%;
+  text-align: center;
+    border-style: dotted;
+    background: rgb(110, 72, 72);
+    
+  
+}
+#valid{
+    color: red;
+}
+
+    
