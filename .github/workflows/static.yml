@@ -1,0 +1,49 @@
+<HTML>
+    <head>
+        <title>
+hossam
+        </title>
+     <link rel="stylesheet" href="style.css">
+     
+    </head>
+<body>
+    
+    <h1 id="crud">crud</h1>
+    <p id="crud1"> creat read update delete system</p>
+   
+<div class="inputs">
+    <input placeholder="title" type="text" id="title">
+<div class="price">
+    <input onkeyup="gettotal()" type="number" id="price" placeholder="price">
+    <input type="number" id="taxes" placeholder="taxes">
+    <input type="number" id="ads" placeholder="ads">
+    <input type="number" id="discount" placeholder="discount">
+    <small id="total"></small>
+</div>
+    <input type="number" id="count" placeholder="count">
+    <input type="text" id="category" placeholder="category">
+<button  id="btn">creat</button>
+<table>
+    <tr>
+        <th>id</th>
+        <th>tital</th>
+        <th>price</th>
+        <th>taxes</th>
+        <th>ads</th>
+        <th>dsicaount</th>
+        <th>total</th>
+        <th>category</th>
+        <th>update</th>
+        <th>delete</th>
+    </tr>
+    <tbody id="tbody">
+
+    </tbody>
+    
+</table>
+
+
+<script src="js.js"></script>
+</body>
+    
+</HTML>
